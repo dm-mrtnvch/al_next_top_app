@@ -20,7 +20,6 @@ export const Tag = ({children, size = "s", color = "ghost", href, className, ...
                     ? <a href={href}>{children}</a>
                     : <>{children}</>
             }
-            {children}
         </div>
     );
 };
