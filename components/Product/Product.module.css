@@ -140,8 +140,12 @@
 }
 
 .opened {
-    max-height: auto;
+    max-height: unset;
     padding: 30px;
+}
+
+.rateTitle {
+    color: var(--primary)
 }
 
 @media screen and (max-width: 1320px) {
